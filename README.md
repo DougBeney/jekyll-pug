@@ -14,7 +14,9 @@ group :jekyll_plugins do
 end
 ```
 
-Alternatively, if you don't use Bundler, just update your Jekyll project's `_config.yml`:
+After that, type `bundle install` in your Terminal.
+
+**Alternatively**, if you don't use Bundler, just update your Jekyll project's `_config.yml`:
 
 ```yml
 gems:
@@ -29,7 +31,7 @@ You'll be able to create Pug pages, templates, and includes, just like you would
 
 **Example:**
 
-```pug
+```jade
 ---
 ---
 
