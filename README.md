@@ -31,7 +31,7 @@ You'll be able to create Pug pages, templates, and includes, just like you would
 
 **Example:**
 
-```jade
+```
 ---
 ---
 
@@ -42,7 +42,7 @@ h1 Hello World!
 
 **./index.pug**
 
-```pug
+```
 ---
 title: Home Page
 layout: default
@@ -53,7 +53,7 @@ p Welcome to my home page. Isn't it awesome?
 
 **./_layouts/default.pug**
 
-```pug
+```
 doctype
 html
     head
@@ -67,21 +67,21 @@ html
 
 Jekyll's `include` tag has been rewritten to support pug. Pug will look in your `_includes` folder.
 
-```pug
+```
 h1 This code will include nav.pug
 {% include nav %}
 ```
 
 You can alternatively type the extension out.
 
-```pug
+```
 h1 This code will include nav.pug
 {% include nav.pug %}
 ```
 
 Have an HTML file you want to include? No problem! Do this:
 
-```pug
+```
 h1 This code will include nav.html
 {% include nav.html %}
 ```
@@ -94,7 +94,7 @@ Here's an example:
 
 **./index.pug**
 
-```pug
+```
 ---
 ---
 
@@ -105,7 +105,7 @@ p= my_cool_variable
 
 **./_includes/variables.pug**
 
-```pug
+```
 - var my_cool_variable = "Er mer gerd! I'm a variable!";
 ```
 
