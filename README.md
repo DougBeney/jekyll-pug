@@ -6,6 +6,8 @@ Created by [Doug](https://dougbeney.com) of [FloeMedia](https://floemedia.com). 
 
 ## Installation
 
+**Note:** you must have [pug-cli](https://www.npmjs.com/package/pug-cli) installed. To install it, simply type `npm install pug-cli -g`.
+
 There are two ways to install this plugin.
 
 **Way #1**
