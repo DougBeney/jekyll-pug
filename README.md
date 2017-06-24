@@ -6,7 +6,20 @@ Created by [Doug](https://dougbeney.com) of [FloeMedia](https://floemedia.com). 
 
 ## Installation
 
-If using [Bundler](http://gembundler.com), add these lines to your application's Gemfile:
+There are two ways to install this plugin.
+
+**Easiest Way**
+
+Simply edit your `_config.yml` and add the following.
+
+```yml
+plugins:
+    - jekyll-pug
+```
+
+**Slightly harder way (Using Bundler)**
+
+If using [Bundler](http://gembundler.com), add these lines to your `Gemfile`:
 
 ```rb
 group :jekyll_plugins do
@@ -14,14 +27,7 @@ group :jekyll_plugins do
 end
 ```
 
-After that, type `bundle install` in your Terminal.
-
-**Alternatively**, if you don't use Bundler, just update your Jekyll project's `_config.yml`:
-
-```yml
-plugins:
-- jekyll-pug
-```
+After adding that to your `Gemfile`, type `bundle install` in your Terminal.
 
 ---
 
