@@ -23,6 +23,8 @@ plugins:
 - jekyll-pug
 ```
 
+---
+
 ## Usage
 
 You'll be able to create Pug pages, templates, and includes, just like you would with HTML files.
@@ -37,6 +39,8 @@ You'll be able to create Pug pages, templates, and includes, just like you would
 
 h1 Hello World!
 ```
+
+---
 
 **Practical Example:**
 
@@ -63,6 +67,8 @@ html
         | {{content}}
 ```
 
+---
+
 ### Include
 
 Jekyll's `include` tag has been rewritten to support pug. Pug will look in your `_includes` folder.
@@ -85,6 +91,8 @@ Have an HTML file you want to include? No problem! Do this:
 h1 This code will include nav.html
 {% include nav.html %}
 ```
+
+---
 
 ### Regular Pug Include (How You Can Use Mixins And Variables)
 
@@ -116,11 +124,15 @@ When you run `jekyll build` on the above code, you will get the following output
 <p>Er mer gerd! I'm a variable!</p>
 ```
 
+---
+
 ### "Can I use Pug extends?"
 
 I'd highly recommend steering clear from using Pug extends with this plugin. Biggest problem with them is that they will not render Jekyll variables.
 
 If you REALLY want to use them, this plugin looks in the `_includes` folder for extends.
+
+---
 
 ## Contributing
 
