@@ -1,6 +1,6 @@
 # Jekyll-Pug
 
-Finally Be Able To Code With [Pug](https://pugjs.org/api/getting-started.html) on [Jekyll](http://github.com/mojombo/jekyll).
+Finally be able to code with [Pug](https://pugjs.org/api/getting-started.html) on [Jekyll](http://github.com/mojombo/jekyll).
 
 Created by [Doug](https://dougbeney.com) of [FloeMedia](https://floemedia.com). This project was forked from samvincent's [jekyll-haml](https://github.com/samvincent/jekyll-haml).
 
