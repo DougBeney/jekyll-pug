@@ -17,9 +17,11 @@ plugins:
     - jekyll-pug
 ```
 
+You're done!
+
 **Slightly harder way (Using Bundler)**
 
-If using [Bundler](http://gembundler.com), add these lines to your `Gemfile`:
+If using [Bundler](http://gembundler.com), add the following to your `Gemfile`:
 
 ```rb
 group :jekyll_plugins do
@@ -27,7 +29,7 @@ group :jekyll_plugins do
 end
 ```
 
-After adding that to your `Gemfile`, type `bundle install` in your Terminal.
+After that, type `bundle install` in your Terminal.
 
 ---
 
