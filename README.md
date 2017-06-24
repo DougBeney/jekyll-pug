@@ -114,6 +114,12 @@ When you run `jekyll build` on the above code, you will get the following output
 <p>Er mer gerd! I'm a variable!</p>
 ```
 
+### "Can I use Pug extends?"
+
+I'd highly recommend steering clear from using Pug extends with this plugin. Biggest problem with them is that they will not render Jekyll variables.
+
+If you REALLY want to use them, this plugin looks in the `_includes` folder for extends.
+
 ## Contributing
 
 1. Fork it
