@@ -8,18 +8,20 @@ Created by [Doug](https://dougbeney.com) of [FloeMedia](https://floemedia.com). 
 
 There are two ways to install this plugin.
 
-**Easiest Way**
+**Way #1**
 
-Simply edit your `_config.yml` and add the following.
+Edit your `_config.yml` and add the following.
 
 ```yml
 plugins:
     - jekyll-pug
 ```
 
+Then, in your terminal, type `gem install jekyll-pug`.
+
 You're done!
 
-**Slightly harder way (Using Bundler)**
+**Way #2 (Using Bundler)**
 
 If using [Bundler](http://gembundler.com), add the following to your `Gemfile`:
 
