@@ -164,3 +164,8 @@ The code you should modify is in the `lib/` directory.
 - `lib/jekyll-pug.rb` is the render code for regular pages you have in the root directory of your project.
 - `lib/tags/pug_partial.rb` is the file that overwrites Jekyll's `include` tag.
 - `lib/jekyll-pug/ext/convertible.rb` re-opens the layout class. In most cases you shouldn't have to modify this.
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/DougBeney/jekyll-pug/badge.svg?style=beer-square)](https://beerpay.io/DougBeney/jekyll-pug)  [![Beerpay](https://beerpay.io/DougBeney/jekyll-pug/make-wish.svg?style=flat-square)](https://beerpay.io/DougBeney/jekyll-pug?focus=wish)
