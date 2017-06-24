@@ -9,7 +9,7 @@ If using [Bundler](http://gembundler.com), add these lines to your application's
 
 ```rb
 group :jekyll_plugins do
-  gem 'jekyll-haml'
+  gem 'jekyll-pug'
 end
 ```
 
@@ -17,7 +17,7 @@ Alternatively, if you don't use Bundler, just update your Jekyll project's `_con
 
 ```yml
 gems:
-- jekyll-haml
+- jekyll-pug
 ```
 
 ## Usage

@@ -1,4 +1,4 @@
-# Re-open Layout class to convert our HAML Layout content.
+# Re-open Layout class to convert our Pug Layout content.
 module Jekyll
   class Layout
     alias old_initialize initialize

@@ -1,0 +1,27 @@
+html, body{
+    font-family: sans-serif;
+    line-height: 1.9;
+    margin: 0;
+}
+
+.container{
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+p, h1, h2, ul{
+    margin-top: 30px;
+}
+
+nav ul {
+    padding: 0;
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    background: #ccc;
+    text-align: center;
+}
+nav li{
+    display: inline;
+    margin: 10px 20px;
+}
