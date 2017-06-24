@@ -19,7 +19,7 @@ After that, type `bundle install` in your Terminal.
 **Alternatively**, if you don't use Bundler, just update your Jekyll project's `_config.yml`:
 
 ```yml
-gems:
+plugins:
 - jekyll-pug
 ```
 
