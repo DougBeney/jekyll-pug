@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'jekyll-haml/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "jekyll-haml"
+  gem.name          = "jekyll-pug"
   gem.version       = Jekyll::Haml::VERSION
-  gem.authors       = ["Sam Vincent"]
-  gem.email         = ["sam.vincent@mac.com"]
-  gem.description   = %q{HAML html converter for Jekyll}
-  gem.summary       = %q{Convert HAML files to standard HTML files as part of your Jekyll build.}
+  gem.authors       = ["Doug Beney"]
+  gem.email         = ["work@dougbeney.com"]
+  gem.description   = %q{Pug to html converter for Jekyll}
+  gem.summary       = %q{Convert Pug files to standard HTML files as part of your Jekyll build.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
