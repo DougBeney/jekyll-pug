@@ -35,6 +35,8 @@ end
 
 After that, type `bundle install` in your Terminal.
 
+*If you're having trouble setting up your Gemfile, [here is our example Gemfile](https://github.com/DougBeney/jekyll-pug/blob/master/test-site/Gemfile).*
+
 ---
 
 ## Usage
