@@ -12,14 +12,14 @@ There are two ways to install this plugin.
 
 **Way #1**
 
-Edit your `_config.yml` and add the following.
+In your terminal, type `gem install jekyll-pug`.
+
+Then, edit your `_config.yml` and add the following.
 
 ```yml
 plugins:
     - jekyll-pug
 ```
-
-Then, in your terminal, type `gem install jekyll-pug`.
 
 You're done!
 
