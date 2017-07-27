@@ -6,10 +6,10 @@ Created by [Doug](https://dougbeney.com) of [FloeMedia](https://floemedia.com). 
 
 ## Table Of Contents
 
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Troubleshooting](#Troubleshooting)
-- [Contributing](#Contributing)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
 - [Support on Beerpay](#support-on-beerpay)
 
 ## Installation
