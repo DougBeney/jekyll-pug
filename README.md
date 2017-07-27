@@ -4,6 +4,14 @@ Finally be able to code with [Pug](https://pugjs.org/api/getting-started.html) o
 
 Created by [Doug](https://dougbeney.com) of [FloeMedia](https://floemedia.com). This project was forked from samvincent's [jekyll-haml](https://github.com/samvincent/jekyll-haml).
 
+## Table Of Contents
+
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Troubleshooting](#Troubleshooting)
+- [Contributing](#Contributing)
+- [Support on Beerpay](#support-on-beerpay)
+
 ## Installation
 
 **Note:** you must have [pug-cli](https://www.npmjs.com/package/pug-cli) installed. To install it, simply enter the terminal command, `npm install pug-cli -g`.
@@ -147,6 +155,14 @@ I'd highly recommend steering clear from using Pug extends with this plugin. Big
 If you REALLY want to use them, this plugin looks in the `_includes` folder for extends.
 
 ---
+
+## Troubleshooting
+
+### "No such file or directory - pug"
+
+This issue typically means that you do not have the NPM package `pug-cli` installed globally. [Here is the solution](https://github.com/DougBeney/jekyll-pug/issues/3)
+
+**Have an issue that's not listed here?** [Submit a New Issue](https://github.com/DougBeney/jekyll-pug/issues/new)
 
 ## Contributing
 
