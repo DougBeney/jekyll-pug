@@ -97,21 +97,21 @@ Jekyll's `include` tag has been rewritten to support pug. Pug will look in your 
 
 ```
 h1 This code will include nav.pug
-{% include nav %}
+| {% include nav %}
 ```
 
 You can alternatively type the extension out.
 
 ```
 h1 This code will include nav.pug
-{% include nav.pug %}
+| {% include nav.pug %}
 ```
 
 Have an HTML file you want to include? No problem! Do this:
 
 ```
 h1 This code will include nav.html
-{% include nav.html %}
+| {% include nav.html %}
 ```
 
 ---
