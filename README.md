@@ -100,6 +100,8 @@ h1 This code will include nav.pug
 | {% include nav %}
 ```
 
+**Note**: The `|` symbol in this example code is a pipe character which tells Pug that we would like to render plain-text. Since Pug's templating engine processes our code before Jekyll, it's important to include this pipe character. [Read more  about piped text here](https://pugjs.org/language/plain-text.html#piped-text).
+
 You can alternatively type the extension out.
 
 ```
