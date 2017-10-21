@@ -9,6 +9,7 @@ Created by [Doug](https://dougbeney.com) of [FloeMedia](https://floemedia.com). 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Troubleshooting](#troubleshooting)
+- [Jekyll-Pug HTML5 Boilerplate](jekyll-pug-html5-boilerplate)
 - [Contributing](#contributing)
 - [Support on Beerpay](#support-on-beerpay)
 
@@ -165,6 +166,10 @@ If you REALLY want to use them, this plugin looks in the `_includes` folder for 
 This issue typically means that you do not have the NPM package `pug-cli` installed globally. [Here is the solution](https://github.com/DougBeney/jekyll-pug/issues/3)
 
 **Have an issue that's not listed here?** [Submit a New Issue](https://github.com/DougBeney/jekyll-pug/issues/new)
+
+## Jekyll-Pug HTML5 Boilerplate
+
+If you're looking for a boilerplate template to speed up your Jekyll-Pug development even more, check out [J5 - A Jekyll, Pug, Sass, and Livereload HTML5 Boilerplate](https://github.com/DougBeney/J5)
 
 ## Contributing
 
