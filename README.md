@@ -9,7 +9,7 @@ Created by [Doug](https://dougbeney.com) of [FloeMedia](https://floemedia.com). 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Troubleshooting](#troubleshooting)
-- [Jekyll-Pug HTML5 Boilerplate](jekyll-pug-html5-boilerplate)
+- [Jekyll-Pug HTML5 Boilerplate](#jekyll-pug-html5-boilerplate)
 - [Contributing](#contributing)
 - [Support on Beerpay](#support-on-beerpay)
 
