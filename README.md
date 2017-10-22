@@ -167,7 +167,7 @@ This issue typically means that you do not have the NPM package `pug-cli` instal
 
 **Have an issue that's not listed here?** [Submit a New Issue](https://github.com/DougBeney/jekyll-pug/issues/new)
 
-## Jekyll-Pug HTML5 Boilerplate
+## HTML5 Boilerplate
 
 If you're looking for a boilerplate template to speed up your Jekyll-Pug development even more, check out [J5 - A Jekyll, Pug, Sass, and Livereload HTML5 Boilerplate](https://github.com/DougBeney/J5)
 
