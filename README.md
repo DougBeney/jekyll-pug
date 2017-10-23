@@ -10,7 +10,7 @@ Created by [Doug](https://dougbeney.com) of [FloeMedia](https://floemedia.com). 
 - [Usage](#usage)
 - [Troubleshooting](#troubleshooting)
 - [HTML5 Boilerplate](#html5-boilerplate)
-- [Deploying to Netlify](#deploying-to-jekyll)
+- [Deploying to Netlify](#deploying-to-netlify)
 - [Contributing](#contributing)
 - [Support on Beerpay](#support-on-beerpay)
 
