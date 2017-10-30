@@ -1,1 +1,3 @@
-This is a test Jekyll site - How I debug this plugin.
+This directory is useful for debugging during development.
+
+Learn how to use it in the Jekyll-Pug readme.

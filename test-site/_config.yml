@@ -1,0 +1,4 @@
+preferred_beverage: root beer
+
+jekyll-pug:
+  minify: true

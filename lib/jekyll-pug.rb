@@ -1,23 +1,17 @@
 require "pug-ruby"
+require "jekyll-pug/pug-renderer"
+require "jekyll-pug/include-tag"
 
-require "jekyll-pug/tags/pug_partial"
-require "jekyll-pug/ext/convertible"
-
-module Jekyll
-	class PugConverter < Converter
-		safe true
-		priority :low
-
-		def matches(ext)
-			ext =~ /^\.pug$/i
-		end
-
-		def output_ext(ext)
-			".html"
-		end
-
-		def convert(content)
-			return Pug.compile(content, {"filename"=>"./_includes/."})
-		end
-	end
+# Enable/Disable Minfify based on the user's config file.
+if Jekyll.configuration({})['jekyll-pug']
+  if Jekyll.configuration({})['jekyll-pug']['minify']
+    # Minify is enabled - pretty disabled
+    Pug.config.pretty = false
+  else
+    # Minify is disabled - pretty enabled
+    Pug.config.pretty = true
+  end
+else
+  # Enable pretty by default
+  Pug.config.pretty = true
 end

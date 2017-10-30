@@ -1,19 +1,13 @@
-include variables_and_mixins
-
 doctype
 html
-    head
-        title {{page.title}}
-        link(rel="stylesheet", href="/main.css")
-    body
-        .container
-            h1 {{page.title}}
-            | {% include nav %}
-            .content {{content}}
-
-            +list_stuff
-
-            h1 Check out this Pug variable:
-            p= cool_variable
-
-            | {% include footer %}
+	head
+		title {{page.title}}
+		meta(name="description", value="{{page.description}}")
+	body
+		h1 Page Title: {{page.title}}
+		h1 Content Section:
+		div 
+			.
+				{% include header %}
+				{{content}}
+				{% include footer.html %}
