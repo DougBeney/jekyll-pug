@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "jekyll-pug"
-  gem.version       = "1.0.0"
-  gem.date          = "2017-10-29"
+  gem.version       = "1.0.1"
+  gem.date          = "2017-10-30"
   gem.authors       = ["Doug Beney"]
-  gem.email         = ["work@dougie.io"]
+  gem.email         = ["contact@dougie.io"]
   gem.description   = %q{Flawlessly use Pug with Jekyll to convert Pug files into HTMl}
   gem.summary       = %q{Use Pug with Jekyll.}
   gem.homepage      = "http://jekyll-pug.dougie.io/"

@@ -5,7 +5,8 @@ module Jekyll
       def parse(content)        
         measure_time do
             if @filename =~ /\.pug$/
-                content = Pug.compile(content, {"filename"=>"./_includes/."})
+                userSource = $JEKYLLPUG_PROJECT_SOURCE
+                content = Pug.compile(content, {"filename"=>userSource})
             end
             # if content.lines.first =~ /^$/
             # content = content.sub(/^$\n/, "")

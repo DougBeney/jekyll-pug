@@ -196,9 +196,9 @@ If you're having any trouble whatsoever, do check out [Jekyll-Pug-Website's pack
 
 The code you should modify is in the `lib/` directory.
 
-- `lib/jekyll-pug.rb` - All this file does is require the main files of this plugin and determine whether or not the user has enabled minification.
+- `lib/jekyll-pug.rb` - All this file does is require the main files of this plugin and work with the user's configuration file.
 - `lib/jekyll-pug/pug-renderer.rb` This file safely modifies Jekyll's rendering code.
-- `lib/jekyll-pug/include-tag.rb` This file safely modifies Jekyll's include tag, allowing for extensionless including and Pug support.
+- `lib/jekyll-pug/include-tag.rb` This file safely modifies Jekyll's include tag, allowing for extension-less including and Pug support.
 
 ## Support on Beerpay
 Hey dude! Help me out for a couple of :beers:!

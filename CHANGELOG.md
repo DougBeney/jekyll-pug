@@ -1,4 +1,4 @@
-v.1.0.0
+v.1.0.1
 ---
 
 - COMPLETELY REWRITTEN! Faster performance, better efficiency, and a better integration with the Jekyll rendering engine
@@ -6,4 +6,5 @@ v.1.0.0
 - Regular Pug includes now work flawlessly!
 - User configuration options for enabling/disabling Pug minification.
 - Updated documentation to reflect version 1.0.0 changes.
+- Fixed compatibility with custom source folders.
 - Added changelog
