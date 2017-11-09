@@ -2,3 +2,10 @@ preferred_beverage: root beer
 
 jekyll-pug:
   minify: true
+
+source: _source_test
+
+names:
+  - bill
+  - ryan
+  - tod

@@ -3,4 +3,16 @@
 
 h1 Welcome to the source test.
 
+<h1> This is a test </h1>
+
 include parts/widget 
+
+| {% for name in site.names %}
+h1 {{name}}
+| {% endfor %}
+
+
+.example.
+  {% for i in (1..6) %}
+  <h{{ i }}/> Header {{ i }}</h1>
+  {% endfor %}

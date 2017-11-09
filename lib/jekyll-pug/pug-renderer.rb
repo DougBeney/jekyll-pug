@@ -4,18 +4,35 @@ module Jekyll
     File.class_eval do
       def parse(content)        
         measure_time do
-            if @filename =~ /\.pug$/
-                userSource = $JEKYLLPUG_PROJECT_SOURCE
-                content = Pug.compile(content, {"filename"=>userSource})
-            end
-            # if content.lines.first =~ /^$/
-            # content = content.sub(/^$\n/, "")
-            # end
-            @template = Liquid::Template.parse(content, :line_numbers => true)
+          if @filename =~ /\.pug$/
+              userSource = $JEKYLLPUG_PROJECT_SOURCE
+              content = Pug.compile(content, {"filename"=>userSource})
+          end
+          # if content.lines.first =~ /^$/
+          # content = content.sub(/^$\n/, "")
+          # end
+          @template = Liquid::Template.parse(content, :line_numbers => true)
         end
-
-        self
       end
+      #########################################
+      # This is the rendering code for Jekyll #
+      # Keep it in mind for future features   #
+      #########################################
+      # def render(*args)
+      #   measure_time do
+      #     measure_bytes do
+      #       @template.render(*args)
+      #     end
+      #   end
+      # end
+
+      # def render!(*args)
+      #   measure_time do
+      #     measure_bytes do
+      #       @template.render!(*args)
+      #     end
+      #   end
+      # end
     end
   end
 end
