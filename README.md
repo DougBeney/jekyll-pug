@@ -17,7 +17,7 @@ Created by [Doug](https://dougie.io) of [FloeMedia](https://floemedia.com).
 
 ## Installation
 
-**Note:** you must have [pug-cli](https://www.npmjs.com/package/pug-cli) installed. To install it, simply enter the terminal command, `npm install pug-cli -g`.
+**Note:** you must have [pug-cli](https://www.npmjs.com/package/pug-cli) installed. To install it, simply enter the terminal command, `npm install pug-cli -g`. If you don't already have NPM/Node installed, [here are instructions](https://www.npmjs.com/get-npm)
 
 There are two ways to install this plugin.
 
