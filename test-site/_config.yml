@@ -2,10 +2,3 @@ preferred_beverage: root beer
 
 jekyll-pug:
   debug: true
-
-# source: src
-
-names:
-  - bill
-  - ryan
-  - tod
