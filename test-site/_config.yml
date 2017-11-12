@@ -1,9 +1,9 @@
 preferred_beverage: root beer
 
 jekyll-pug:
-  minify: true
+  debug: true
 
-source: _source_test
+# source: src
 
 names:
   - bill

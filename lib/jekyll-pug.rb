@@ -3,10 +3,10 @@ require "jekyll-pug/pug-renderer"
 require "jekyll-pug/include-tag"
 
 # Enable/Disable Minfify based on the user's config file.
-jekyllConfig = Jekyll.configuration({})
+$jekyllConfig = Jekyll.configuration({})
 
-if jekyllConfig['jekyll-pug']
-  if jekyllConfig['jekyll-pug']['minify']
+if $jekyllConfig['jekyll-pug']
+  if $jekyllConfig['jekyll-pug']['minify']
     # Minify is enabled - pretty disabled
     Pug.config.pretty = false
   else
@@ -19,8 +19,8 @@ else
 end
 
 config_source = ""
-if jekyllConfig['source']
-  config_source = jekyllConfig['source']
+if $jekyllConfig['source']
+  config_source = $jekyllConfig['source']
 end
 
 $JEKYLLPUG_PROJECT_SOURCE = File.join(config_source, '_includes/.')
