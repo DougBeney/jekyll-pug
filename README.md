@@ -4,6 +4,8 @@ Finally be able to code with [Pug](https://github.com/pugjs/pug) on [Jekyll](htt
 
 Created by [Doug Beney](https://dougie.io).
 
+If you enjoy this project, do [sign up for my email list](http://jekyll-pug.dougie.io/) to receive info on other plugins and tools I create for Jekyll.
+
 ## Table Of Contents
 
 - [Installation](#installation)
