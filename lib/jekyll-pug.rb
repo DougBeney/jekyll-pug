@@ -23,4 +23,12 @@ if $jekyllConfig['source']
   config_source = $jekyllConfig['source']
 end
 
-$JEKYLLPUG_PROJECT_SOURCE = File.join(config_source, '_includes/.')
+dir  = Dir.pwd
+
+$JEKYLLPUG_PROJECT_SOURCE_ABS = config_source
+$JEKYLLPUG_PROJECT_SOURCE = config_source.sub(/#{dir}/, '')
+$JEKYLLPUG_PROJECT_INCLUDES = File.join($JEKYLLPUG_PROJECT_SOURCE, '_includes/.')
+  .sub(/^\//, '')
+  .sub(/\/\.$/, '')
+
+$PUG_INCLUDES = File.join(config_source, '_includes/.')

@@ -1,4 +1,6 @@
 preferred_beverage: root beer
 
+source: src
+
 jekyll-pug:
   debug: true
