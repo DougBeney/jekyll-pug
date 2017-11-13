@@ -2,7 +2,7 @@
 
 Finally be able to code with [Pug](https://github.com/pugjs/pug) on [Jekyll](http://github.com/mojombo/jekyll).
 
-Created by [Doug](https://dougie.io) of [FloeMedia](https://floemedia.com).
+Created by [Doug Beney](https://dougie.io).
 
 ## Table Of Contents
 
