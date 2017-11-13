@@ -210,13 +210,6 @@ If you're having any trouble whatsoever, do check out [Jekyll-Pug-Website's pack
 - Link: [material.jekyll-pug.dougie.io](http://material.jekyll-pug.dougie.io)
 - Source: [github.com/DougBeney/jekyll-pug-material](https://github.com/DougBeney/jekyll-pug-material)
 
-### Material-Jekyll-Pug [Free/Open-Source]
-
-![Material-Jekyll-Pug screenshot](promotional/jekyll-pug-material.png)
-
-- Link: [material.jekyll-pug.dougie.io](http://material.jekyll-pug.dougie.io)
-- Source: [github.com/DougBeney/jekyll-pug-material](https://github.com/DougBeney/jekyll-pug-material)
-
 ### Mover.io
 
 ![Mover.io screenshot](promotional/mover-io.png)
