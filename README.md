@@ -12,6 +12,10 @@ Created by [Doug](https://dougie.io) of [FloeMedia](https://floemedia.com).
 - [Troubleshooting](#troubleshooting)
 - [HTML5 Boilerplate](#html5-boilerplate)
 - [Deploying to Netlify](#deploying-to-netlify)
+- [Sites Using Jekyll-Pug](#sites-using-jekyll-pug)
+  + [Jekyll-Pug-Website [Free/Open-Source]](#jekyll-pug-website-freeopen-source)
+  + [Material-Jekyll-Pug [Free/Open-Source]](#material-jekyll-pug-freeopen-source)
+  + [Mover.io](#mover-io)
 - [Contributing](#contributing)
 - [Support on Beerpay](#support-on-beerpay)
 
@@ -46,7 +50,7 @@ In your terminal, type `gem install jekyll-pug`.
 
 Then, edit your `_config.yml` and add the following.
 
-```yml
+```yaml
 plugins:
     - jekyll-pug
 ```
@@ -63,7 +67,7 @@ Minification is disabled by default.
 
 To turn it on, add this to your `_config.yml`:
 
-```yml
+```yaml
 jekyll-pug:
   minify: true
 ```
@@ -72,7 +76,7 @@ If you are running into an issue, it could also help to enable Jekyll-Pug debugg
 
 To enable debugging, use the following in your `_config.yml`:
 
-```yml
+```yaml
 jekyll-pug:
   debug: true
 ```
@@ -125,7 +129,7 @@ html
 
 Jekyll's `include` tag has been safely modified to support pug. Pug's native `include` tag will also look in the `_includes` folder.
 
-```
+```pug
 h1 This code will include nav.pug
 | {% include nav %}
 
@@ -137,21 +141,21 @@ include nav
 
 You can alternatively type the extension out.
 
-```
+```pug
 h1 This code will include nav.pug
 | {% include nav.pug %}
 ```
 
 Have an HTML file you want to include? No problem! Do this:
 
-```
+```pug
 h1 This code will include nav.html
 | {% include nav.html %}
 ```
 
 Have an SVG file you want to include? No problem! Do this:
 
-```
+```pug
 h1 This code will include logo.svg
 | {% include logo.svg %}
 ```
@@ -189,6 +193,40 @@ Next, install pug-cli using `npm install pug-cli --save`.
 When Netlify builds your site, it will now install pug-cli. 
 
 If you're having any trouble whatsoever, do check out [Jekyll-Pug-Website's package.json](https://github.com/DougBeney/Jekyll-Pug-Website/blob/master/package.json) file as a reference.
+
+## Sites Using Jekyll-Pug
+
+### Jekyll-Pug-Website [Free/Open-Source]
+
+![Jekyll-Pug-Website screenshot](promotional/jekyll-pug-website.png)
+
+- Link: [material.jekyll-pug.dougie.io](http://material.jekyll-pug.dougie.io)
+- Source: [github.com/DougBeney/Jekyll-Pug-Website](https://github.com/DougBeney/Jekyll-Pug-Website)
+
+### Material-Jekyll-Pug [Free/Open-Source]
+
+![Material-Jekyll-Pug screenshot](promotional/jekyll-pug-material.png)
+
+- Link: [material.jekyll-pug.dougie.io](http://material.jekyll-pug.dougie.io)
+- Source: [github.com/DougBeney/jekyll-pug-material](https://github.com/DougBeney/jekyll-pug-material)
+
+### Material-Jekyll-Pug [Free/Open-Source]
+
+![Material-Jekyll-Pug screenshot](promotional/jekyll-pug-material.png)
+
+- Link: [material.jekyll-pug.dougie.io](http://material.jekyll-pug.dougie.io)
+- Source: [github.com/DougBeney/jekyll-pug-material](https://github.com/DougBeney/jekyll-pug-material)
+
+### Mover.io
+
+![Mover.io screenshot](promotional/mover-io.png)
+
+- Link: [Mover.io](https://mover.io/)
+- Source: Private
+
+---
+
+**Want your Jekyll-Pug website to be featured here?** [Submit it here](https://github.com/DougBeney/jekyll-pug/issues/6)
 
 ## Contributing
 
