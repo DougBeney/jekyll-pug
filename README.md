@@ -25,7 +25,7 @@ If you enjoy this project, do [sign up for my email list](http://jekyll-pug.doug
 
 ## Installation
 
-**Note:** you must have [pug-cli](https://www.npmjs.com/package/pug-cli) installed. To install it, simply enter the terminal command, `npm install pug-cli -g`. If you don't already have NPM/Node installed, [here are instructions](https://www.npmjs.com/get-npm)
+**Note:** you must have [pug](https://www.npmjs.com/package/pug) installed. To install it, simply enter the terminal command, `npm install pug -g`. If you don't already have NPM/Node installed, [here are instructions](https://www.npmjs.com/get-npm)
 
 There are two ways to install this plugin.
 
