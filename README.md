@@ -232,7 +232,19 @@ If you're having any trouble whatsoever, do check out [Jekyll-Pug-Website's pack
 
 ## Deploying to Siteleaf
 
-Coming soon.
+To deploy to siteleaf, first make sure your `Gemfile` is properly set up.
+
+Next, make sure your `_config.yml` includes the following:
+
+```
+plugins:
+- jekyll-pug
+
+jekyll-pug:
+  shipped_version: 2.0.0-beta10
+```
+
+You're all set! Enjoy having a full CMS with Jekyll-Pug!
 
 ## Sites Using Jekyll-Pug
 
