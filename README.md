@@ -220,15 +220,20 @@ If you're looking for a boilerplate template to speed up your Jekyll-Pug develop
 
 ## Deploying to Netlify
 
-Jekyll-Pug requires the pug-cli NPM package for its main functionality. 
+Jekyll-Pug requires the pug NPM package for its main functionality. 
 
-First, create a package.json file using the command `npm init`.
+First, create a file called `Makefile` with the following content:
 
-Next, install pug-cli using `npm install pug-cli --save`.
+```
+netlify:
+  npm install pug -g
+  jekyll build
+```
 
-When Netlify builds your site, it will now install pug-cli. 
+Now, log into Netlify, go into your site settings, go to the "Build & deploy" oage. Now, under "Deploy settings" click "Edit settings" and finally change your build command to `make netlify`.
 
-If you're having any trouble whatsoever, do check out [Jekyll-Pug-Website's package.json](https://github.com/DougBeney/Jekyll-Pug-Website/blob/master/package.json) file as a reference.
+You're all set! Enjoy!
+
 
 ## Deploying to Siteleaf
 
