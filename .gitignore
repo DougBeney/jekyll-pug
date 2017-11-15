@@ -15,3 +15,4 @@ spec/reports
 tmp
 .DS_Store
 test-site/_site
+.pug-cache

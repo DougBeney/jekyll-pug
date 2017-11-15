@@ -11,9 +11,11 @@ If you enjoy this project, do [sign up for my email list](http://jekyll-pug.doug
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
+- [Using Shipped Pug Versions](#using-shipped-pug-versions)
 - [Troubleshooting](#troubleshooting)
 - [HTML5 Boilerplate](#html5-boilerplate)
 - [Deploying to Netlify](#deploying-to-netlify)
+- [Deploying to Siteleaf](#deploying-to-siteleaf)
 - [Sites Using Jekyll-Pug](#sites-using-jekyll-pug)
   + [Jekyll-Pug-Website [Free/Open-Source]](#jekyll-pug-website-freeopen-source)
   + [Material-Jekyll-Pug [Free/Open-Source]](#material-jekyll-pug-freeopen-source)
@@ -172,6 +174,38 @@ If you REALLY want to use them, this plugin looks in the `_includes` folder for 
 
 ---
 
+## Using Shipped Pug Versions
+
+**Important note:** Advanced Pug features such as includes, may not work using a shipped pug library. In this case, it is best to use Jekyll's built-in includes. (`| {% include nav %}`)
+
+If you do not wish to install pug via NPM or if you are deploying to a location, [such as Siteleaf](#deploying-to-siteleaf), you can select a shipped Pug version via your `_config.yml`.
+
+```
+jekyll-pug:
+  shipped_version: 2.0.0-beta10
+```
+
+The current versions available are:
+
+```
+2.0.0-beta10
+2.0.0-beta11
+2.0.0-beta12
+2.0.0-beta1
+2.0.0-beta2
+2.0.0-beta3
+2.0.0-beta4
+2.0.0-beta5
+2.0.0-beta6
+2.0.0-beta7
+2.0.0-beta8
+2.0.0-beta9
+2.0.0-rc.1
+2.0.0-rc.2
+2.0.0-rc.3
+2.0.0-rc.4
+```
+
 ## Troubleshooting
 
 ### "No such file or directory - pug"
@@ -195,6 +229,10 @@ Next, install pug-cli using `npm install pug-cli --save`.
 When Netlify builds your site, it will now install pug-cli. 
 
 If you're having any trouble whatsoever, do check out [Jekyll-Pug-Website's package.json](https://github.com/DougBeney/Jekyll-Pug-Website/blob/master/package.json) file as a reference.
+
+## Deploying to Siteleaf
+
+Coming soon.
 
 ## Sites Using Jekyll-Pug
 

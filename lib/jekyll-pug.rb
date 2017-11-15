@@ -13,6 +13,15 @@ if $jekyllConfig['jekyll-pug']
     # Minify is disabled - pretty enabled
     Pug.config.pretty = true
   end
+  if $jekyllConfig['jekyll-pug']['shipped_version']
+    # Minify is enabled - pretty disabled
+    Pug.use $jekyllConfig['jekyll-pug']['shipped_version']
+    puts "Using shipped Pug version: " + Pug.compiler.version.to_s
+  else
+    # Minify is disabled - pretty enabled
+    puts "Using system Pug version: " + Pug.compiler.version.to_s
+    Pug.use :system
+  end
 else
   # Enable pretty by default
   Pug.config.pretty = true

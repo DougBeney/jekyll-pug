@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.date          = "2017-10-30"
   gem.authors       = ["Doug Beney"]
   gem.email         = ["contact@dougie.io"]
-  gem.description   = %q{Flawlessly use Pug with Jekyll to convert Pug files into HTMl}
+  gem.description   = %q{Flawlessly use Pug with Jekyll to convert Pug files into HTML}
   gem.summary       = %q{Use Pug with Jekyll.}
   gem.homepage      = "http://jekyll-pug.dougie.io/"
 
@@ -19,5 +19,5 @@ Gem::Specification.new do |gem|
   gem.license       = "MIT"
 
   gem.add_runtime_dependency 'jekyll',     '~> 3.3'
-  gem.add_runtime_dependency 'pug-ruby',   '~> 1.0'
+  gem.add_runtime_dependency 'pug-ruby',   '~> 2.0'
 end
