@@ -246,6 +246,8 @@ jekyll-pug:
 
 You're all set! Enjoy having a full CMS with Jekyll-Pug!
 
+**Note:** To use custom plugins, you must be a premium Siteleaf user. Currently Jekyll-Pug is not a whitelisted plugin by Siteleaf/Github. If/when that happens, users on the free plan will be able to use Jekyll-Pug. The whitelist is controlled by Github and you can view a list of [whitelisted plugins here](https://pages.github.com/versions/)
+
 ## Sites Using Jekyll-Pug
 
 ### Jekyll-Pug-Website [Free/Open-Source]
