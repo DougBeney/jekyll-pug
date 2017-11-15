@@ -232,7 +232,7 @@ If you're having any trouble whatsoever, do check out [Jekyll-Pug-Website's pack
 
 ## Deploying to Siteleaf
 
-To deploy to siteleaf, first make sure your `Gemfile` is properly set up.
+To deploy to Siteleaf, first make sure your `Gemfile` is properly set up. ([See Jekyll-Pug installation instructions using a Gemfile](#installation))
 
 Next, make sure your `_config.yml` includes the following:
 
