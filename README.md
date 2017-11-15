@@ -220,7 +220,7 @@ If you're looking for a boilerplate template to speed up your Jekyll-Pug develop
 
 ## Deploying to Netlify
 
-Jekyll-Pug requires the pug NPM package for its main functionality. 
+Jekyll-Pug requires the Pug NPM package for its main functionality. 
 
 First, create a file called `Makefile` with the following content:
 
@@ -230,7 +230,7 @@ netlify:
   jekyll build
 ```
 
-Now, log into Netlify, go into your site settings, go to the "Build & deploy" oage. Now, under "Deploy settings" click "Edit settings" and finally change your build command to `make netlify`.
+Now, log into Netlify, go into your site settings, go to the "Build & deploy" section. Now, under "Deploy settings" click "Edit settings" and finally change your build command to `make netlify`.
 
 You're all set! Enjoy!
 
