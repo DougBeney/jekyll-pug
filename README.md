@@ -12,7 +12,6 @@ If you enjoy this project, do [sign up for my email list](http://jekyll-pug.doug
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [Using Shipped Pug Versions](#using-shipped-pug-versions)
-- [Troubleshooting](#troubleshooting)
 - [HTML5 Boilerplate](#html5-boilerplate)
 - [Deploying to Netlify](#deploying-to-netlify)
 - [Deploying to Siteleaf](#deploying-to-siteleaf)
@@ -205,14 +204,6 @@ The current versions available are:
 2.0.0-rc.3
 2.0.0-rc.4
 ```
-
-## Troubleshooting
-
-### "No such file or directory - pug"
-
-This issue typically means that you do not have the NPM package `pug-cli` installed globally. [Here is the solution](https://github.com/DougBeney/jekyll-pug/issues/3)
-
-**Have an issue that's not listed here?** [Submit a New Issue](https://github.com/DougBeney/jekyll-pug/issues/new)
 
 ## HTML5 Boilerplate
 
