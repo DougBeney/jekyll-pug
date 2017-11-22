@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 
 group :jekyll_plugins do
-  gem "jekyll-ghp-deploy", :path => "../"
+  gem "jekyll-pug", :path => "../"
 end

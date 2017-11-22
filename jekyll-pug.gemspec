@@ -3,20 +3,21 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
-  gem.name          = "jekyll-ghp-deploy"
-  gem.version       = "0.0.1"
-  gem.date          = "2017-11-19"
+  gem.name          = "jekyll-pug"
+  gem.version       = "1.5.2"
+  gem.date          = "2017-10-30"
   gem.authors       = ["Doug Beney"]
   gem.email         = ["contact@dougie.io"]
-  gem.description   = %q{Easily deploy to Github Pages, even if the plugins you use are not whitelisted.}
-  gem.summary       = %q{Deploy your build folder to Github pages.}
-  gem.homepage      = "https://github.com/DougBeney/jekyll-gbp-deploy"
+  gem.description   = %q{Flawlessly use Pug with Jekyll to convert Pug files into HTML}
+  gem.summary       = %q{Use Pug with Jekyll.}
+  gem.homepage      = "http://jekyll-pug.dougie.io/"
 
-  gem.files         = ["lib/ghp-deploy.rb"]
+  gem.files         = ["lib/jekyll-pug.rb", "lib/jekyll-pug/include-tag.rb", "lib/jekyll-pug/pug-renderer.rb"]
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
   gem.license       = "MIT"
 
   gem.add_runtime_dependency 'jekyll',     '~> 3.3'
+  gem.add_runtime_dependency 'pug-ruby',   '~> 2.0'
 end
