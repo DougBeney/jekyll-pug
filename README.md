@@ -9,8 +9,8 @@ If you enjoy this project, do [sign up for my email list](http://jekyll-pug.doug
 ## Table Of Contents
 
 - [Installation](#installation)
-- [Configuration](#configuration)
 - [Usage](#usage)
+- [Configuration](#configuration)
 - [Using Shipped Pug Versions](#using-shipped-pug-versions)
 - [HTML5 Boilerplate](#html5-boilerplate)
 - [Deploying to Netlify](#deploying-to-netlify)
@@ -61,44 +61,6 @@ plugins:
 You're done!
 
 ---
-
-## Configuration
-
-Here are the different configuration options you can set in `_config.yml`.
-
-**Minification**
-
-Minification is disabled by default. 
-
-To turn it on, add this to your `_config.yml`:
-
-```yaml
-jekyll-pug:
-  minify: true
-```
-
-**Compiling to PHP instead of HTML**
-
-If you need PHP files instead of HTML files, enabling this feature will compile all pup files to `.php` files.
-
-I added this feature because it is very useful in my Wordpress theme development workflow.
-
-```yaml
-jekyll-pug:
-  php: true
-```
-
-
-**Enabling debug mode**
-
-If you are running into an issue, it could also help to enable Jekyll-Pug debugging. This will print a lot more to the console when your Jekyll project is building. **Debugging is disabled by default.**
-
-To enable debugging, use the following in your `_config.yml`:
-
-```yaml
-jekyll-pug:
-  debug: true
-```
 
 ## Usage
 
@@ -188,6 +150,44 @@ I'd highly recommend steering clear from using Pug extends with this plugin. Usi
 If you REALLY want to use them, this plugin looks in the `_includes` folder for extends. Just keep in mind you'll have a hard time getting Pug extends to work with your Jekyll blog posts.
 
 ---
+
+## Configuration
+
+Here are the different configuration options you can set in `_config.yml`.
+
+**Minification**
+
+Minification is disabled by default. 
+
+To turn it on, add this to your `_config.yml`:
+
+```yaml
+jekyll-pug:
+  minify: true
+```
+
+**Compiling to PHP instead of HTML**
+
+If you need PHP files instead of HTML files, enabling this feature will compile all pup files to `.php` files.
+
+I added this feature because it is very useful in my Wordpress theme development workflow.
+
+```yaml
+jekyll-pug:
+  php: true
+```
+
+
+**Enabling debug mode**
+
+If you are running into an issue, it could also help to enable Jekyll-Pug debugging. This will print a lot more to the console when your Jekyll project is building. **Debugging is disabled by default.**
+
+To enable debugging, use the following in your `_config.yml`:
+
+```yaml
+jekyll-pug:
+  debug: true
+```
 
 ## Using Shipped Pug Versions
 
