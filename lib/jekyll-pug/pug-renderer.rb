@@ -139,22 +139,22 @@ module Jekyll
     end
 end
 
-# This section ensures that Pug files are compiled as HTML.
+# This section ensures that Pug files are compiled as HTML or PHP.
 module Jekyll
     class PugConverter < Converter
             safe true
             priority :low
 
             def matches(ext)
-                    ext =~ /^\.pug$/i
+                ext =~ /^\.pug$/i
             end
 
             def output_ext(ext)
-                    ".html"
+                $CompileFormat
             end
 
             def convert(content)
-                    return content
+                return content
             end
     end
 end

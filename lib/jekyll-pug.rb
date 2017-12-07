@@ -5,6 +5,8 @@ require "jekyll-pug/include-tag"
 # Enable/Disable Minfify based on the user's config file.
 $jekyllConfig = Jekyll.configuration({})
 
+$CompileFormat = '.html'
+
 if $jekyllConfig['jekyll-pug']
   if $jekyllConfig['jekyll-pug']['minify']
     # Minify is enabled - pretty disabled
@@ -12,6 +14,9 @@ if $jekyllConfig['jekyll-pug']
   else
     # Minify is disabled - pretty enabled
     Pug.config.pretty = true
+  end
+  if $jekyllConfig['jekyll-pug']['php']
+    $CompileFormat = '.php'
   end
   if $jekyllConfig['jekyll-pug']['shipped_version']
     # Minify is enabled - pretty disabled
