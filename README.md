@@ -64,7 +64,7 @@ You're done!
 
 ## Configuration
 
-The main setting available in configuration is minification. This will tell the Pug command line tool whether or not to minify the output.
+Here are the different configuration options you can set in `_config.yml`.
 
 **Minification**
 
