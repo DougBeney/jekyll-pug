@@ -6,6 +6,8 @@ Created by [Doug Beney](https://dougie.io).
 
 If you enjoy this project, do [sign up for my email list](http://jekyll-pug.dougie.io/) to receive info on other plugins and tools I create for Jekyll.
 
+[**Have a Jekyll-Pug website you are proud of? Share it here!**](https://github.com/DougBeney/jekyll-pug/issues/6) It is preferred, but optional, that the website you share has publically-availible source code.
+
 ## Table Of Contents
 
 - [Installation](#installation)
