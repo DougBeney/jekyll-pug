@@ -32,17 +32,24 @@ else
   Pug.config.pretty = true
 end
 
-config_source = ""
-if $jekyllConfig['source']
-  config_source = $jekyllConfig['source']
+# Detect theme/source
+jekyll_theme = $jekyllConfig['theme']
+jekyll_source = $jekyllConfig['source']
+
+config_source = "" # third condition: no `source:`
+if jekyll_theme
+  config_source = Jekyll::Theme.new(jekyll_theme).root
+elsif jekyll_source
+  config_source = jekyll_source
 end
 
 dir  = Dir.pwd
 
+# Theme should use absolute path
 $JEKYLLPUG_PROJECT_SOURCE_ABS = config_source
-$JEKYLLPUG_PROJECT_SOURCE = config_source.sub(/#{dir}/, '')
+$JEKYLLPUG_PROJECT_SOURCE = jekyll_theme ? config_source : config_source.sub(/#{dir}/, '')
 $JEKYLLPUG_PROJECT_INCLUDES = File.join($JEKYLLPUG_PROJECT_SOURCE, '_includes/.')
-  .sub(/^\//, '')
   .sub(/\/\.$/, '')
+$JEKYLLPUG_PROJECT_INCLUDES = $JEKYLLPUG_PROJECT_INCLUDES.sub(/^\//, '') unless jekyll_theme
 
 $PUG_INCLUDES = File.join(config_source, '_includes/.')
