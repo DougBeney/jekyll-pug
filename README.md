@@ -17,6 +17,7 @@ If you enjoy this project, do [sign up for my email list](http://jekyll-pug.doug
 - [HTML5 Boilerplate](#html5-boilerplate)
 - [Deploying to Netlify](#deploying-to-netlify)
 - [Deploying to Siteleaf](#deploying-to-siteleaf)
+- [Deploying to Github Pages](#deploying-to-github-pages)
 - [Sites Using Jekyll-Pug](#sites-using-jekyll-pug)
   + [Jekyll-Pug-Website [Free/Open-Source]](#jekyll-pug-website-freeopen-source)
   + [Material-Jekyll-Pug [Free/Open-Source]](#material-jekyll-pug-freeopen-source)
@@ -261,6 +262,10 @@ jekyll-pug:
 You're all set! Enjoy having a full CMS with Jekyll-Pug!
 
 **Note:** To use custom plugins, you must be a premium Siteleaf user. Currently Jekyll-Pug is not a whitelisted plugin by Siteleaf/Github. If/when that happens, users on the free plan will be able to use Jekyll-Pug. The whitelist is controlled by Github and you can view a list of [whitelisted plugins here](https://pages.github.com/versions/)
+
+## Deploying to Github Pages
+
+I recommend checking out [issue thread #14](https://github.com/DougBeney/jekyll-pug/issues/14) for a viable solution to use Jekyll-Pug with Github Pages. Ortonomy explains his solution later on in the thread.
 
 ## Sites Using Jekyll-Pug
 
