@@ -4,8 +4,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "jekyll-pug"
-  gem.version       = "1.5.3"
-  gem.date          = "2017-10-30"
+  gem.version       = "1.5.4"
+  gem.date          = "2018-05-05"
   gem.authors       = ["Doug Beney"]
   gem.email         = ["contact@dougie.io"]
   gem.description   = %q{Flawlessly use Pug with Jekyll to convert Pug files into HTML}
