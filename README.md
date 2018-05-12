@@ -12,7 +12,7 @@ If you enjoy this project, do [sign up for my email list](http://jekyll-pug.doug
 
 [jekyll-bliss]: https://github.com/DougBeney/Jekyll-Bliss
 
-**TL;DR** Use [Jekyll-Bliss][jekyll-bliss]. It is faster and more actively developed.
+**TL;DR** Use [Jekyll-Bliss][jekyll-bliss] instead. It is faster and more actively developed.
 
 I greatly appreciate all of the support I have received with this plugin!
 
