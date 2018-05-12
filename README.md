@@ -10,9 +10,13 @@ If you enjoy this project, do [sign up for my email list](http://jekyll-pug.doug
 
 ## The Future of Jekyll-Pug 🎆
 
+[jekyll-bliss]: https://github.com/DougBeney/Jekyll-Bliss
+
+**TL;DR** use [Jekyll-Bliss][jekyll-bliss] for the 
+
 I greatly appreciate all of the support I have received with this plugin!
 
-I wanted to let you know that I am working on a project called [Jekyll-Bliss](https://github.com/DougBeney/Jekyll-Bliss) that will cure the biggest issue present with Jekyll: Slow compile times.
+I wanted to let you know that I am working on a project called [Jekyll-Bliss][jekyll-bliss] that will cure the biggest issue present with Jekyll: Slow compile times.
 
 Here is the mission statement of Jekyll-Bliss:
 
