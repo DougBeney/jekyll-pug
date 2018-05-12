@@ -12,21 +12,21 @@ If you enjoy this project, do [sign up for my email list](http://jekyll-pug.doug
 
 [jekyll-bliss]: https://github.com/DougBeney/Jekyll-Bliss
 
-**TL;DR** use [Jekyll-Bliss][jekyll-bliss] for the 
+**TL;DR** Use [Jekyll-Bliss][jekyll-bliss]. It is faster and more actively developed.
 
 I greatly appreciate all of the support I have received with this plugin!
 
-I wanted to let you know that I am working on a project called [Jekyll-Bliss][jekyll-bliss] that will cure the biggest issue present with Jekyll: Slow compile times.
+I wanted to let you know that I am working on a project called [Jekyll-Bliss][jekyll-bliss] that will cure the biggest issue present with Jekyll: Slow build times.
 
 Here is the mission statement of Jekyll-Bliss:
 
 > The aims of this project is to allow Jekyll-Bliss to do all of the heavy-lifting (Markdown, JS, Sass/SCSS, Pug compilation, etc) and allow Jekyll to do the smallest amount of work possible - compiling HTML files.
 
-A lot of more features need to be added to allow it to really make a difference in compile time, **but Pug support is already in place and it shaves seconds off of Jekyll-Pug's compile time**.
+A lot of more features need to be added to allow it to really make a difference in build time, **but Pug support is already in place and it shaves seconds off of Jekyll-Pug's compile time**.
 
 Give it a try and do let me know of any bugs you come across. :)
 
-[Click here to check out Jekyll-Bliss](https://github.com/DougBeney/Jekyll-Bliss)
+[Click here to check out Jekyll-Bliss][jekyll-bliss]
 
 ## Table Of Contents
 
