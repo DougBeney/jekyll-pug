@@ -2,7 +2,7 @@
 
 Finally be able to code with [Pug](https://github.com/pugjs/pug) on [Jekyll](http://github.com/mojombo/jekyll).
 
-If you enjoy this project and want to stay on the radar of other open-source projects I create, do [sign up for the Open App Library newsletter](https://openapplibrary.org/newsletter/).
+If you enjoy this project and want to stay on the radar of other open-source projects I create, do [sign up for the Open App Library newsletter](https://openapplibrary.org/about/).
 
 ## Jekyll-Pug vs. Jekyll-Bliss
 
