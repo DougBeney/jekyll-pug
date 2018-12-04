@@ -2,13 +2,16 @@
 
 Finally be able to code with [Pug](https://github.com/pugjs/pug) on [Jekyll](http://github.com/mojombo/jekyll).
 
-Created by Doug Beney.
-
-If you enjoy this project, do [sign up for my email list](http://jekyll-pug.dougie.io/) to receive info on other plugins and tools I create for Jekyll.
-
-[**Have a Jekyll-Pug website you are proud of? Share it here!**](https://github.com/DougBeney/jekyll-pug/issues/6) It is preferred, but optional, that the website you share has publicly-available source code.
+If you enjoy this project and want to stay on the radar of other open-source projects I create, do [sign up for the Open App Library newsletter](https://openapplibrary.org/newsletter/).
 
 ## Jekyll-Pug vs. Jekyll-Bliss
+
+Here are the essential differences:
+
+- Jekyll-Pug is a regular Jekyll plugin.
+- Jekyll-Bliss is a wrapper that allows you to easily compile a Jekyll website that uses Pug files.
+- Jekyll-Bliss is faster.
+- Jekyll-Bliss still has a bit of work to be completed while Jekyll-Pug is basically finished.
 
 [jekyll-bliss]: https://gitlab.com/DougBeney/Jekyll-Bliss
 
@@ -16,12 +19,7 @@ First of all, let's go over whether you should use this jekyll plugin or Jekyll 
 
 **The main difference**: Jekyll-Pug is a plugin and Jekyll-Bliss is a wrapper that goes on top of Jekyll. Jekyll-Bliss does all of the heavy lifting (Pug/Sass compiling, minification) and leaves Jekyll to build your site. *This results in faster compile times*.
 
-In short:
-
-- Jekyll-Pug is more stable and is a Ruby gem.
-- Jekyll-Bliss is beta software, but compiles sites faster. It is a Node module, installed through NPM.
-
-Here is the mission statement of Jekyll-Bliss:
+Here is the goal of Jekyll-Bliss:
 
 > The aims of this project is to allow Jekyll-Bliss to do all of the heavy-lifting (Markdown, JS, Sass/SCSS, Pug compilation, etc) and allow Jekyll to do the smallest amount of work possible - compiling HTML files.
 
