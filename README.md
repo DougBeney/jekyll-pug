@@ -1,4 +1,4 @@
-# Jekyll-Pug
+# Introduction
 
 Finally be able to code with [Pug](https://github.com/pugjs/pug) on [Jekyll](http://github.com/mojombo/jekyll).
 
@@ -6,17 +6,20 @@ Created by Doug Beney.
 
 If you enjoy this project, do [sign up for my email list](http://jekyll-pug.dougie.io/) to receive info on other plugins and tools I create for Jekyll.
 
-[**Have a Jekyll-Pug website you are proud of? Share it here!**](https://github.com/DougBeney/jekyll-pug/issues/6) It is preferred, but optional, that the website you share has publically-availible source code.
+[**Have a Jekyll-Pug website you are proud of? Share it here!**](https://github.com/DougBeney/jekyll-pug/issues/6) It is preferred, but optional, that the website you share has publicly-available source code.
 
-## The Future of Jekyll-Pug 🎆
+## Jekyll-Pug vs. Jekyll-Bliss
 
-[jekyll-bliss]: https://github.com/DougBeney/Jekyll-Bliss
+[jekyll-bliss]: https://gitlab.com/DougBeney/Jekyll-Bliss
 
-**TL;DR** Use [Jekyll-Bliss][jekyll-bliss] instead. It is faster and more actively developed.
+First of all, let's go over whether you should use this jekyll plugin or Jekyll Bliss.
 
-I greatly appreciate all of the support I have received with this plugin!
+**The main difference**: Jekyll-Pug is a plugin and Jekyll-Bliss is a wrapper that goes on top of Jekyll. Jekyll-Bliss does all of the heavy lifting (Pug/Sass compiling, minification) and leaves Jekyll to build your site. *This results in faster compile times*.
 
-I wanted to let you know that I am working on a project called [Jekyll-Bliss][jekyll-bliss] that will cure the biggest issue present with Jekyll: Slow build times.
+In short:
+
+- Jekyll-Pug is more stable and is a Ruby gem.
+- Jekyll-Bliss is beta software, but compiles sites faster. It is a Node module, installed through NPM.
 
 Here is the mission statement of Jekyll-Bliss:
 
@@ -24,9 +27,9 @@ Here is the mission statement of Jekyll-Bliss:
 
 A lot of more features need to be added to allow it to really make a difference in build time, **but Pug support is already in place and it shaves seconds off of Jekyll-Pug's compile time**.
 
-Give it a try and do let me know of any bugs you come across. :)
+Feel free to try both Jekyll-Pug and Jekyll-Bliss to see what is more beneficial to the way you work. Also feel free to hack around with the code. The codebases are relatively simple and you do not need to be an expert programmer.
 
-[Click here to check out Jekyll-Bliss][jekyll-bliss]
+---
 
 ## Table Of Contents
 
@@ -180,7 +183,7 @@ Here are the different configuration options you can set in `_config.yml`.
 
 **Minification**
 
-Minification is disabled by default. 
+Minification is disabled by default.
 
 To turn it on, add this to your `_config.yml`:
 
@@ -250,7 +253,7 @@ If you're looking for a boilerplate template to speed up your Jekyll-Pug develop
 
 ## Deploying to Netlify
 
-Jekyll-Pug requires the Pug NPM package for its main functionality. 
+Jekyll-Pug requires the Pug NPM package for its main functionality.
 
 First, create a file called `Makefile` with the following content:
 
