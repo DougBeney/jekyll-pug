@@ -13,7 +13,9 @@ Here are the essential differences:
 - Jekyll-Bliss is faster.
 - Jekyll-Bliss still has a bit of work to be completed while Jekyll-Pug is basically finished.
 
-[jekyll-bliss]: https://gitlab.com/DougBeney/Jekyll-Bliss
+[Link to Jekyll Bliss][jekyll-bliss]
+
+[jekyll-bliss]: https://github.com/DougBeney/Jekyll-Bliss
 
 First of all, let's go over whether you should use this jekyll plugin or Jekyll Bliss.
 
