@@ -4,8 +4,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "jekyll-pug"
-  gem.version       = "1.5.5"
-  gem.date          = "2018-05-05"
+  gem.version       = "1.5.6"
+  gem.date          = "2020-01-25"
   gem.authors       = ["Doug Beney"]
   gem.email         = ["contact@dougie.io"]
   gem.description   = %q{Flawlessly use Pug with Jekyll to convert Pug files into HTML}
@@ -18,6 +18,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.license       = "MIT"
 
-  gem.add_runtime_dependency 'jekyll',     '~> 3.3'
+  gem.add_runtime_dependency 'jekyll',     '>= 3.6', '< 5.0'
   gem.add_runtime_dependency 'pug-ruby',   '~> 2.0'
 end
