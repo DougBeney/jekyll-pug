@@ -1,0 +1,5 @@
+#source: src
+
+jekyll-pug:
+  debug: true
+  # php: true
