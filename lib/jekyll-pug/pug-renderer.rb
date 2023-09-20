@@ -70,7 +70,7 @@ module Jekyll
 					cached_file_dir = cached_file.sub(filename_regex, '')
 
 					# Creating cache directory neccesary (if needed)
-					FileUtils.mkdir_p(cached_file_dir) unless ::File.exists?(cached_file_dir)
+					FileUtils.mkdir_p(cached_file_dir) unless ::File.exist?(cached_file_dir)
 
 					# Loop through Pug includes to determine if any had been modified
 					jp("Checking the Pug includes of " + @filename)
@@ -92,7 +92,7 @@ module Jekyll
 						include_cache_file = ".pug-cache/" + include_file.sub(/#{$JEKYLLPUG_PROJECT_SOURCE}/, '')
 						include_cache_file_dir = include_cache_file.sub(filename_regex, '')
 						# Make a cache folder for this include if not already created
-						FileUtils.mkdir_p(include_cache_file_dir) unless ::File.exists?(include_cache_file_dir)
+						FileUtils.mkdir_p(include_cache_file_dir) unless ::File.exist?(include_cache_file_dir)
 
 						# Read the file of the include
 						include_content = ::File.read(include_file)
