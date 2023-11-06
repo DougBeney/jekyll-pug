@@ -298,7 +298,7 @@ I recommend checking out [issue thread #14](https://github.com/DougBeney/jekyll-
 - Link: [ActivityWatch.net](https://activitywatch.net)
 - Source: [github.com/ActivityWatch/activitywatch.github.io](https://github.com/ActivityWatch/activitywatch.github.io)
 
-I am proud to have the popular project, ActivityWatch using Jekyll-Pug! I highly recommend checking it out. If you have heard of the program "RescueTime" it is similar to that except everything is open source, the data stays on YOUR computer, YOU own the data, and no one else gets it. Get the productivity boost of seeing where you're wasting your time without having your privacy invaded.
+I am proud to have the popular project, ActivityWatch, using Jekyll-Pug! I highly recommend checking it out. If you have heard of the program "RescueTime" it is similar to that except everything is open source, the data stays on YOUR computer, YOU own the data, and no one else gets it. Get the productivity boost of seeing where you're wasting your time without having your privacy invaded.
 
 Project description: "ActivityWatch is an app that automatically tracks how you spend time on your devices. It is open source, privacy-first, cross-platform, and a great alternative to services like RescueTime, ManicTime, and WakaTime. It can be used to keep track of your productivity, time spent on different projects, bad screen habits, or just to understand how you spend your time."
 
