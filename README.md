@@ -289,23 +289,41 @@ I recommend checking out [issue thread #14](https://github.com/DougBeney/jekyll-
 
 ## Sites Using Jekyll-Pug
 
-### Jekyll-Pug-Website [Free/Open-Source]
+### ActivityWatch [Free/Open Source]
 
-![Jekyll-Pug-Website screenshot](promotional/jekyll-pug-website.png)
+![ActivityWatch website screenshot](promotional/activitywatch.jpg)
 
-- Link: [material.jekyll-pug.dougie.io](http://material.jekyll-pug.dougie.io)
+- Link: [ActivityWatch.net](https://activitywatch.net)
+- Source: [github.com/ActivityWatch/activitywatch.github.io](https://github.com/ActivityWatch/activitywatch.github.io)
+
+I am proud to have the popular project, ActivityWatch using Jekyll-Pug! I highly recommend checking it out. If you have heard of the program "RescueTime" it is similar to that except everything is open source, the data stays on YOUR computer, YOU own the data, and no one else gets it. Get the productivity boost of seeing where you're wasting your time without having your privacy invaded.
+
+Project description: "ActivityWatch is an app that automatically tracks how you spend time on your devices. It is open source, privacy-first, cross-platform, and a great alternative to services like RescueTime, ManicTime, and WakaTime. It can be used to keep track of your productivity, time spent on different projects, bad screen habits, or just to understand how you spend your time."
+
+### Superuser Labs [Free/Open Source]
+
+![Superuser Labs website screenshot](promotional/superuserlabs.jpg)
+
+- Link: [SuperuserLabs.org](https://superuserlabs.org)
+- Source: [github.com/SuperuserLabs/superuserlabs.github.io](https://github.com/SuperuserLabs/superuserlabs.github.io)
+
+### Jekyll-Pug-Website [Free/Open Source]
+
+![Jekyll-Pug-Website screenshot](promotional/jekyll-pug-website.jpg)
+
+- Link: [jekyll-pug.dougie.io](http://jekyll-pug.dougie.io)
 - Source: [github.com/DougBeney/Jekyll-Pug-Website](https://github.com/DougBeney/Jekyll-Pug-Website)
 
-### Material-Jekyll-Pug [Free/Open-Source]
+### Material-Jekyll-Pug [Free/Open Source]
 
-![Material-Jekyll-Pug screenshot](promotional/jekyll-pug-material.png)
+![Material-Jekyll-Pug screenshot](promotional/jekyll-pug-material.jpg)
 
-- Link: [material.jekyll-pug.dougie.io](http://material.jekyll-pug.dougie.io)
+- Link: [No live link at the moment]
 - Source: [github.com/DougBeney/jekyll-pug-material](https://github.com/DougBeney/jekyll-pug-material)
 
 ### Mover.io
 
-![Mover.io screenshot](promotional/mover-io.png)
+![Mover.io screenshot](promotional/mover-io.jpg)
 
 - Link: [Mover.io](https://mover.io/)
 - Source: Private
