@@ -39,8 +39,10 @@ Feel free to try both Jekyll-Pug and Jekyll-Bliss to see what is more beneficial
 - [Deploying to Siteleaf](#deploying-to-siteleaf)
 - [Deploying to Github Pages](#deploying-to-github-pages)
 - [Sites Using Jekyll-Pug](#sites-using-jekyll-pug)
-  + [Jekyll-Pug-Website [Free/Open-Source]](#jekyll-pug-website-freeopen-source)
-  + [Material-Jekyll-Pug [Free/Open-Source]](#material-jekyll-pug-freeopen-source)
+  + [ActivityWatch](#activitywatch)
+  + [Superuser Labs](#superuser-labs)
+  + [Jekyll-Pug-Website](#jekyll-pug-website)
+  + [Material-Jekyll-Pug](#material-jekyll-pug)
   + [Mover.io](#mover-io)
 - [Contributing](#contributing)
 - [Support on Beerpay](#support-on-beerpay)
@@ -289,7 +291,7 @@ I recommend checking out [issue thread #14](https://github.com/DougBeney/jekyll-
 
 ## Sites Using Jekyll-Pug
 
-### ActivityWatch [Free/Open Source]
+### ActivityWatch
 
 ![ActivityWatch website screenshot](promotional/activitywatch.jpg)
 
@@ -300,21 +302,21 @@ I am proud to have the popular project, ActivityWatch using Jekyll-Pug! I highly
 
 Project description: "ActivityWatch is an app that automatically tracks how you spend time on your devices. It is open source, privacy-first, cross-platform, and a great alternative to services like RescueTime, ManicTime, and WakaTime. It can be used to keep track of your productivity, time spent on different projects, bad screen habits, or just to understand how you spend your time."
 
-### Superuser Labs [Free/Open Source]
+### Superuser Labs
 
 ![Superuser Labs website screenshot](promotional/superuserlabs.jpg)
 
 - Link: [SuperuserLabs.org](https://superuserlabs.org)
 - Source: [github.com/SuperuserLabs/superuserlabs.github.io](https://github.com/SuperuserLabs/superuserlabs.github.io)
 
-### Jekyll-Pug-Website [Free/Open Source]
+### Jekyll-Pug-Website
 
 ![Jekyll-Pug-Website screenshot](promotional/jekyll-pug-website.jpg)
 
 - Link: [jekyll-pug.dougie.io](http://jekyll-pug.dougie.io)
 - Source: [github.com/DougBeney/Jekyll-Pug-Website](https://github.com/DougBeney/Jekyll-Pug-Website)
 
-### Material-Jekyll-Pug [Free/Open Source]
+### Material-Jekyll-Pug
 
 ![Material-Jekyll-Pug screenshot](promotional/jekyll-pug-material.jpg)
 
